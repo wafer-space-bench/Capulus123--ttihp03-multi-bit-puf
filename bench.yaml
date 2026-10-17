@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Capulus123/ttihp03-multi-bit-puf
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p2
+  slot: tt_um_multi_bit_puf_wrapper
+  project: One Bit PUF
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 64a9385243e2f81aa847e0a72e17d0b6f7548895
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p2/tt_um_multi_bit_puf_wrapper
+  branch: tapeout/tinytapeout/ttgf0p2/tt_um_multi_bit_puf_wrapper
+  page: https://app.tinytapeout.com/shuttles/ttgf0p2
+generated: '2026-10-17T23:23:35Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p2/tt_um_multi_bit_puf_wrapper
+- upstream/main
